@@ -1,0 +1,28 @@
+body{
+   background-color: antiquewhite;
+    width: 190px;
+    height: 190px;
+    
+}
+
+button{
+    background-color: rgb(255, 216, 158);
+    border-width: 1.5px;
+    border-color: burlywood;
+    border-radius: 20px;
+    
+}
+
+
+#openBtn2{
+    width: 63.58px;
+}
+
+#myText{
+    margin-top: -38px;
+    margin-left: 25px;
+    display: inline;
+    background-color: rgb(255, 216, 158);
+    resize: none;
+}
+
