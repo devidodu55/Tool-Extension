@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./popup.css" rel="stylesheet">
+</head>
+<body>                  
+
+        <button id="openBtn">website1</button>
+        <br>
+        <br>
+        <button id="openBtn2">website2</button>
+        <textarea rows="4" cols="10" id="myText"></textarea>
+        
+
+    
+<!--calculator-->
+<br>
+<br>
+<input type="text" id="result" readonly>
+
+<div id="buttons">
+  <button class="number">1</button>
+  <button class="number">2</button>
+  <button class="number">3</button>
+  <button id="plus">+</button>
+
+  <button class="number">4</button>
+  <button class="number">5</button>
+  <button class="number">6</button>
+  <button id="minus">-</button>
+
+  <button class="number">7</button>
+  <button class="number">8</button>
+  <button class="number">9</button>
+  <button id="multiply">*</button>
+
+  <button id="clear">C</button>
+  <button class="number">0</button>
+  <button id="equals">=</button>
+  <button id="divide">/</button>
+</div>
+
+<script type="text/javascript" src="popup.js"></script>
+
+<style>
+#result{
+    width: 84px;
+    background-color: rgb(255, 216, 158);
+    border-width: 1.5px;
+    border-color: burlywood;
+    
+}
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 10px;
+}
+</style>
+</body>
+</html>
